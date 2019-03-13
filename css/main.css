@@ -114,6 +114,11 @@ input[type=submit]:hover {
     background-color: white;
     padding: 20px;
     margin: auto;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%)
 }
 #booking p {
     color: #303030;
@@ -160,3 +165,14 @@ form {
     }
 }
 /* Booking ends here */
+
+#getQuote { 
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  width: 50px;
+  cursor: pointer;
+}
+
+#getQuote:hover { background: green; }
+#getQuote:active { background: grey; }
