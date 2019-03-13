@@ -57,110 +57,7 @@ body {
     }
   }
 /* Navi ends here */
-
-a {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-a:hover {
-    color: #5DB267;
-}
-.wrapper1 {
-    margin: 80px auto 0;
-    width: 100%;
-}
-.wrapper1 img {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto 0;
-	display: block;
-}
-.wrapper2 {
-    width: 900px;
-    margin: 10px auto 10px;
-    font-size: 20px;
-    text-align: center;
-}
-.wrapper2 p {
-    color: #303030;
-    margin: 10px;
-}
-.wrapper3 {
-    width: 100%;
-    margin: 0 auto 0;
-    background-color: #5DB267;
-    font-size: 25px;
-    text-align: center;
-}
-.row {
-    display: table;
-    width: 900px;
-    margin: 0 auto 0;
-}
-.row p {
-    color: white;
-}
-.column {
-    float: left;
-    width: 33.33%;
-}
-.column img {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 0;
-	display: block;
-}
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
-  .column, .row, .wrapper2 {
-    width: 100%;
-  }
-}
-.column p {
-    color: #303030;
-}
-.column span {
-    color: white;
-}
-footer {
-    width: 100%;
-    margin: 0 auto 0;
-    background-color: #303030;
-    font-size: 15px;
-}
-.row2 {
-    display: table;
-    width: 900px;
-    margin: 0 auto 0;
-    background-color: #303030;
-}
-.row2 span {
-    color: #5DB267;
-}
-.row2 p {
-    color: white;
-    margin: 10px;
-}
-.column4 {
-    float: left;
-    width: 50%;
-}
-.column5 {
-    float: left;
-    width: 50%;
-}
-.column4 img {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto 0;
-	display: block;
-}
-@media screen and (max-width: 900px) {
-  .column4, .column5, .row2 {
-    width: 100%;
-  }
-}
+/* Booking starts here */
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -212,6 +109,7 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 #booking {
+    display: none;
     border-radius: 5px;
     background-color: white;
     padding: 20px;
@@ -261,3 +159,4 @@ form {
         margin-top: 0;
     }
 }
+/* Booking ends here */
