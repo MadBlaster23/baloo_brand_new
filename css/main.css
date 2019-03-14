@@ -4,6 +4,7 @@
 }
 body {
     margin: 0;
+    background-color: #bfbfbf;
 }
 /* Navi starts here */
 
@@ -165,14 +166,3 @@ form {
     }
 }
 /* Booking ends here */
-
-#getQuote { 
-  -webkit-user-select: none; /* Chrome/Safari */        
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+ */
-  width: 50px;
-  cursor: pointer;
-}
-
-#getQuote:hover { background: green; }
-#getQuote:active { background: grey; }
