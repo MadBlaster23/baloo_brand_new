@@ -27,7 +27,9 @@ body {
     background-color: grey;
     color: black;
   }
-  
+.topnav-right {
+  float: right;
+}
   .active {
     background-color: #5DB267;
   }
