@@ -166,3 +166,37 @@ form {
     }
 }
 /* Booking ends here */
+.wrapper {
+    width: 100%;
+    margin: 0 auto 0;
+    background-color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+.row2 {
+    display: table;
+    width: 900px;
+    margin: 0 auto 0;
+}
+.row2 p {
+    color: black;
+}
+.column4 {
+    float: left;
+    width: 33.33%;
+}
+.column4 img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0;
+	display: block;
+}
+@media screen and (max-width: 900px) {
+  .column4, .row2 {
+    width: 100%;
+  }
+}
+
+.column4 span {
+    color: red;
+}
