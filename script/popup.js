@@ -1,7 +1,7 @@
 $(function() {
   
     // contact form animations
-    $('#getQuote').click(function() {
+    $('#getQuote, #getQuote1, #getQuote2, #getQuote3').click(function() {
         $('#booking').fadeToggle();
     });
     $(document).mouseup(function (e) {
