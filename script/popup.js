@@ -1,15 +1,8 @@
-$(function() {
-  
-    // contact form animations
-    $('#getQuote, #getQuote1, #getQuote2, #getQuote3').click(function() {
-        $('#booking').fadeToggle();
-    });
-    $(document).mouseup(function (e) {
-        var container = $("#booking");
-  
-        if (!container.is(e.target)
-        && container.has(e.target).length === 0) {
-            container.fadeOut();
-        }
-    }); 
-});
+//Function To Display Popup
+function div_show() {
+document.getElementById('booking').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide(){
+document.getElementById('booking').style.display = "none";
+}
