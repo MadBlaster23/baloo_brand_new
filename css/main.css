@@ -99,6 +99,7 @@ textarea {
 input[type=submit] {
     width:100px;
     margin-top: 10px;
+    margin-right: 10px;
 	padding: 10px;
     background-color: #5DB267;
     color: #303030;
@@ -118,8 +119,8 @@ input[type=submit]:hover {
     opacity: 0.95;
     top:0;
     left:0;
-    display:none;
-    position:fixed;
+    display: none;
+    position: fixed;
     background-color: #313131;
     overflow: auto;
 }
