@@ -120,21 +120,22 @@ input[type=submit]:hover {
     left:0;
     display:none;
     position:fixed;
-    background-color:#313131;
-    overflow:auto
+    background-color: #313131;
+    overflow: auto;
 }
 
 #popupForm {
     border-radius: 5px;
     background-color: #ffffff;
-    position:absolute;
+    position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%,-50%);
+    padding: 10px;
 }
 
 #booking p {
-    color: 333333;
+    color: #333333;
     font-size: 25px;
     vertical-align: middle;
     text-align: center;
@@ -170,6 +171,11 @@ form {
     content: "";
     display: table;
     clear: both;
+}
+@media screen and (max-height: 700px) {
+    #popupForm {
+        height: 100%;
+    }
 }
 @media screen and (max-width: 900px) {
     #popupForm, form, .column1, .column2, .column3 {
