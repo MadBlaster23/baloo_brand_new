@@ -219,41 +219,26 @@ form {
 	display: block;
 }
 @media screen and (max-width: 900px) {
-  .column4, .row2 {
-    width: 100%;
-  }
+    .column4, .row2 {
+        width: 100%;
+    }
 }
 
 .column4 span {
     color: red;
 }
-
-.logo {
-    width: 20%;
-    height: 500px;
+.wrapper0 {
+    width: 100%;
+    margin: 0 auto 0;
+    background-color: #f2ede7;
+    font-size: 25px;
 }
-
-.banner {
- display: table;
- width: 100%;
+.row0 {
+    display: table;
+    width: 100%;
+    margin: 0 auto 0;
 }
-
-.hero {
- display: table-cell;
- vertical-align: middle;
- height: 100%;
- margin: 0 auto;
-}
-
-.container {
- width: 1170px;
- margin: 0 auto;
-}
-
-.jumbotron {
- background-image: url("../img/white-bricks1.png");
- background-attachment: fixed;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+.column0 {
+    float: left;
+    width: 50%;
 }
